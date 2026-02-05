@@ -39,7 +39,7 @@
             </div>
         </div>
 
-         <!-- About  -->
+        <!-- About  -->
         <div class="about" id="About">
             <h4>About</h4>
             <p>I am a determined and hardworking person who believes in learning and self-growth. I like to understand things deeply and improve myself step by step. I am focused on building my skills, staying disciplined, and creating a better future through consistent effort.</p>
@@ -47,10 +47,12 @@
 
         <!-- Language  -->
         <div class="language" id="Language">
-            <h4>Language</h4>
-                HTML <meter max=100 min=0 value=70></meter><br>
-                CSS <meter max=100 min=0 value=50></meter><br>
-                Javascript <meter max="100" min="0" value="0"></meter><br>
+            <h4>Language</h4><hr>
+            <div class="language_tile">     <!-- Tile  -->
+                <div class="html_tile tile"><h5>HTML <br><meter max=100 min=0 value=70></meter></h5></div>
+                <div class="css_tile tile"><h5>CSS <br><meter max=100 min=0 value=50></meter></h5></div>
+                <div class="js_tile tile"><h5>Javascript <br><meter max="100" min="0" value="0"></meter></h5></div>
+            </div>
         </div>
 
         <!-- Project  -->
@@ -96,7 +98,7 @@
 
         <!-- Contact Me  -->
         <div class="contact_me" id="contact_me">
-            <div class="form">
+            <div class="form">      <!-- Form -->
                 <h4>Contact Me</h4>
                 <form action="">
                     <label for="">Name</label> <input type="text" name="Name" placeholder="Username" id="" required><br>
@@ -104,7 +106,7 @@
                     Email Id <input type="email" name="Email" placeholder="xyz@gmail.com" id=""><br>
                     Question <br> <textarea name="Question" id="" placeholder="Tell me your question" required></textarea><br>
                     <center>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="show()">
                     </center>
                 </form>
             </div>
@@ -116,5 +118,5 @@
         </div>
     </div>
 </body>
-
+<script src="script.js"> </script>
 </html>
