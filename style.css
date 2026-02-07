@@ -176,6 +176,14 @@ meter{
     padding: 20px;
 }
 
+.project table{
+    text-align: center;
+}
+
+.project a{
+    text-decoration: none;
+}
+
 /* EXPERIENCE SECTION  */
 .experience{
     border-bottom: 2px solid grey;
@@ -311,5 +319,9 @@ textarea{
 
     .tile{
         margin: 40px;
+    }
+
+    .project table{
+        width: 80%;
     }
 }
