@@ -323,5 +323,6 @@ textarea{
 
     .project table{
         width: 80%;
+        box-sizing: border-box;
     }
 }
